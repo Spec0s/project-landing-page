@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+}
+
+/*------------------ header ------------------*/
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    color: #F9faf8;
+    font-size: 24px;
+}
+
+.header-ul {
+    font-size: 18px;
+    display: flex;
+    list-style: none;
+    gap: 14px;
+}
+
+.header a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+
+/*------------------ hero ------------------*/
+
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+
+}
+
+.hero-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+
+.hero-1 h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9faf8;
+    margin: 0;
+    max-width: 300px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #f9faf8;
+    margin: 0;
+    max-width: 400px;
+}
+
+.hero-1 button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #3382f6;
+    color: #f9faf8;
+    border: none;
+    margin-top: 7px;
+}
+
+
+
+.hero-img {
+    width: 50%;
+    min-width: 100px;
+    max-width: 600px;
+    min-height: 50px;
+    max-height: 300px;
+}
+
+
+
+/*------------------ header+hero ------------------*/
+
+.logo-div, .hero-1 {
+    margin-left: 10%;
+}
+
+.header-ul, .hero-img {
+    margin-right: 10%;
+}
+
+/*------------------ content ------------------*/
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-mrg {
+    margin: 0 10%;
+    padding-bottom: 100px;
+}
+
+.content h2 {
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.content-2 {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    color: grey;
+}
+
+.content-img {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    text-align: center;
+}
+
+.content-img img {
+    width: 140px;
+    height: 140px;
+}
+
+/*------------------ inspirational section ------------------*/
+
+.insp {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insp div {
+    padding: 100px 0;
+    margin: 0 10%;
+    min-width: 600px;
+    max-width: 40%;
+}
+
+.insp p:nth-child(1) {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 0;
+    padding: 0;
+}
+
+.insp p:nth-child(2) {
+    text-align: end;
+    font-weight: bolder;
+}
+
+/*-------------- Call for action---------------- */
+
+.cta-mrg {
+    background-color: #3382f6;
+    border-radius: 5px;
+    margin: 100px 10%;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.cta-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta h3 {
+    color: #F9faf8;
+    margin: 0;
+    padding-top: 0;
+}
+
+.cta p {
+    color: #F9faf8;
+    margin: 0;
+    padding-top: 0;
+}
+
+
+
+.cta-btn {
+    display: flex;
+    align-items: center;
+}
+
+.cta button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #3382f6;
+    color: #f9faf8;
+    border-color: #e5e7eb;
+    border: solid;
+    border-width: 1px;
+    margin-top: 7px;
+}
+
+/* -----------------------Footer---------------------- */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #F9faf8;
+    height: 100px;
+    font-weight: bolder;
+}
