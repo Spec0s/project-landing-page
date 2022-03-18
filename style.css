@@ -8,6 +8,8 @@ body {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    padding: 0 10%;
 }
 
 .logo-div {
@@ -36,16 +38,20 @@ body {
 .hero {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
-    padding: 100px 0;
+    padding: 100px 10%;
+    height: 300px;
+    width: 80%;
 
 }
 
 .hero-1 {
-    width: 50%;
     display: flex;
     flex-direction: column;
-    margin-right: 5%;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    min-height: 300px;
+
 }
 
 .hero-1 h1 {
@@ -53,14 +59,12 @@ body {
     font-weight: bold;
     color: #F9faf8;
     margin: 0;
-    max-width: 300px;
 }
 
 .hero p {
     font-size: 18px;
     color: #f9faf8;
     margin: 0;
-    max-width: 400px;
 }
 
 .hero-1 button {
@@ -73,26 +77,12 @@ body {
     margin-top: 7px;
 }
 
-
-
-.hero-img {
+.hero img {
     width: 50%;
-    min-width: 100px;
-    max-width: 600px;
-    min-height: 50px;
-    max-height: 300px;
-}
-
-
-
-/*------------------ header+hero ------------------*/
-
-.logo-div, .hero-1 {
-    margin-left: 10%;
-}
-
-.header-ul, .hero-img {
-    margin-right: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    /* border: solid; */
 }
 
 /*------------------ content ------------------*/
@@ -100,11 +90,7 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-}
-
-.content-mrg {
-    margin: 0 10%;
-    padding-bottom: 100px;
+    padding: 0 10% 100px 10%;
 }
 
 .content h2 {
@@ -113,6 +99,7 @@ body {
     font-weight: bold;
     color: #1f2937;
     justify-content: center;
+    text-align: center;
     margin: 50px 0;
 }
 
@@ -121,6 +108,7 @@ body {
     justify-content: center;
     gap: 5%;
     color: grey;
+    flex-wrap: wrap;
 }
 
 .content-img {
@@ -131,6 +119,9 @@ body {
 }
 
 .content-img img {
+    border-radius: 15px;
+    border: solid;
+    border-color: #3382f6;
     width: 140px;
     height: 140px;
 }
@@ -144,11 +135,8 @@ body {
     justify-content: center;
 }
 
-.insp div {
-    padding: 100px 0;
-    margin: 0 10%;
-    min-width: 600px;
-    max-width: 40%;
+.insp-mrg {
+    padding: 100px 20%;
 }
 
 .insp p:nth-child(1) {
@@ -161,6 +149,7 @@ body {
 }
 
 .insp p:nth-child(2) {
+    font-size: 28px;
     text-align: end;
     font-weight: bolder;
 }
@@ -173,13 +162,13 @@ body {
     margin: 100px 10%;
     display: flex;
     justify-content: space-around;
-    padding: 50px 0;
 }
 
 .cta-1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 120px;
 }
 
 .cta h3 {
@@ -215,7 +204,7 @@ body {
 
 /* -----------------------Footer---------------------- */
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
